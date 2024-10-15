@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;padding: 0;
+   
+}
+body{
+background-color: hsl(180, 100%, 50%);
+}
+h1,h2{
+    text-align: center;
+    color: #171c1b;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    height: 200px;
+    width: 200px;
+    border: 5px solid rgb(130, 89, 89);
+    border-radius: 25%;
+    margin: 2rem;
+    -webkit-border-radius: 25%;
+    -moz-border-radius: 25%;
+    -ms-border-radius: 25%;
+    -o-border-radius: 25%;
+    
+}
+.yellow{
+    background-color: yellow;
+}
+.orange{
+    background-color: orange;
+}
+.voilet{
+    background-color: violet;
+}
+.pink{
+    background-color: pink;
+}
+.flash{
+    background-color: white;
+}
